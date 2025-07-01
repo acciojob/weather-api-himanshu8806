@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+.weather-box {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
